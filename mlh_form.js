@@ -5,8 +5,7 @@ function validate() {
     var lname = document.reg_form.lname;     
     var email = document.reg_form.email;    
     var github = document.reg_form.v2;    
-    var linkedIn = document.reg_form.v3;    
-    var portfolio = document.reg_form.v4;    
+    
 
     if (fname.value.length == 0) {    
         alert("Name is required");    
